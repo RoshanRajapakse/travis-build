@@ -10,7 +10,7 @@ def gh(slug)
   "https://github.com/#{slug}"
 end
 
-gem 'activesupport', '~> 4.0'
+gem 'activesupport', '~> 6.1', '>= 6.1.7.3'
 gem 'addressable', '~> 2.3'
 gem 'codeclimate-test-reporter', require: false, group: %i[development test]
 gem 'coder'
@@ -27,8 +27,8 @@ gem 'parallel_tests', require: false, group: %i[development test]
 gem 'pry', require: false, group: %i[development test]
 gem 'webmock', group: :test
 gem 'puma'
-gem 'rack', '>= 2.1.4'
-gem 'rack-ssl', '~> 1.4'
+gem 'rack', '>= 2.2.6.4'
+gem 'rack-ssl', '~> 1.4', '>= 1.4.1'
 gem 'rack-test'
 gem 'rake'
 gem 'rbtrace'
