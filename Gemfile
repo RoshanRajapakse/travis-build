@@ -38,7 +38,7 @@ gem 'rubocop', require: false, group: %i[development test]
 gem 'sentry-raven'
 gem 'simplecov', require: false, group: %i[development test]
 gem 'sinatra'
-gem 'sinatra-contrib'
+gem 'sinatra-contrib', '>= 2.1.0'
 gem 'travis'
 gem 'travis-config'
 gem 'travis-github_apps', git: gh('travis-ci/travis-github_apps')
