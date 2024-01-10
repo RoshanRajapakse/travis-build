@@ -26,7 +26,7 @@ gem 'mocha', require: false, group: %i[development test]
 gem 'parallel_tests', require: false, group: %i[development test]
 gem 'pry', require: false, group: %i[development test]
 gem 'webmock', group: :test
-gem 'puma'
+gem 'puma', '>= 5.6.8'
 gem 'rack', '>= 2.1.4'
 gem 'rack-ssl', '~> 1.4'
 gem 'rack-test'
