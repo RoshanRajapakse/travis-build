@@ -37,8 +37,8 @@ gem 'rspec', '~> 3.0', group: %i[development test]
 gem 'rubocop', require: false, group: %i[development test]
 gem 'sentry-raven'
 gem 'simplecov', require: false, group: %i[development test]
-gem 'sinatra'
-gem 'sinatra-contrib'
+gem 'sinatra', '>= 4.0.0'
+gem 'sinatra-contrib', '>= 4.0.0'
 gem 'travis'
 gem 'travis-config'
 gem 'travis-github_apps', git: gh('travis-ci/travis-github_apps')
