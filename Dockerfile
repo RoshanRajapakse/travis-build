@@ -12,7 +12,7 @@ RUN bundle install --frozen --deployment --without='development test' --clean
 RUN bundle exec rake assets:precompile GITHUB_OAUTH_TOKEN=$GITHUB_OAUTH_TOKEN
 RUN tar -cjf public.tar.bz2 public && rm -rf public
 
-FROM ruby:2.5.8-slim
+FROM ruby:2.7.8-slim
 LABEL maintainer Travis CI GmbH <support+travis-build-docker-images@travis-ci.com>
 WORKDIR /app
 
