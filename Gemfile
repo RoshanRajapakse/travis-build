@@ -27,7 +27,7 @@ gem 'parallel_tests', require: false, group: %i[development test]
 gem 'pry', require: false, group: %i[development test]
 gem 'webmock', group: :test
 gem 'puma'
-gem 'rack', '>= 2.1.4'
+gem 'rack', '>= 2.2.12'
 gem 'rack-ssl', '~> 1.4'
 gem 'rack-test'
 gem 'rake'
