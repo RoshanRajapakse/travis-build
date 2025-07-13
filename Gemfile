@@ -25,11 +25,11 @@ gem 'minitar'
 gem 'mocha', require: false, group: %i[development test]
 gem 'parallel_tests', require: false, group: %i[development test]
 gem 'pry', require: false, group: %i[development test]
-gem 'webmock', group: :test
+gem 'webmock', '>= 3.14.0', group: :test
 gem 'puma'
 gem 'rack', '>= 2.1.4'
 gem 'rack-ssl', '~> 1.4'
-gem 'rack-test'
+gem 'rack-test', '>= 2.0.0'
 gem 'rake'
 gem 'rbtrace'
 gem 'rerun', require: false, group: :development
@@ -37,13 +37,13 @@ gem 'rspec', '~> 3.0', group: %i[development test]
 gem 'rubocop', require: false, group: %i[development test]
 gem 'sentry-raven'
 gem 'simplecov', require: false, group: %i[development test]
-gem 'sinatra'
-gem 'sinatra-contrib'
+gem 'sinatra', '>= 2.1.0'
+gem 'sinatra-contrib', '>= 2.1.0'
 gem 'travis'
 gem 'travis-config'
 gem 'travis-github_apps', git: gh('travis-ci/travis-github_apps')
 gem 'travis-rollout', git: gh('travis-ci/travis-rollout')
 gem 'travis-support', git: gh('travis-ci/travis-support')
 
-gem "octokit", "~> 4.18"
+gem "octokit", "~> 4.19", ">= 4.19.0"
 gem 'rest-client'
